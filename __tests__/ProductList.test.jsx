@@ -8,3 +8,4 @@ test('renders products list', () => {
   expect(screen.getByText('Products')).toBeInTheDocument();
   expect(screen.getByText('Apple')).toBeInTheDocument();
 });
+import '@testing-library/jest-dom';
